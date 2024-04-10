@@ -8,7 +8,6 @@ Created on Wed Apr 10 12:09:03 2024
 import streamlit as st
 import os
 import requests
-from bs4 import BeautifulSoup
 import pandas as pd
 
 df = pd.read_csv('car_data.csv')
